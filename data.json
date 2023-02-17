@@ -1,0 +1,24 @@
+[
+    {
+        
+        "id":1,
+        "nombre": "Cuadro1",
+        "precio": 15000,
+        "Image": "./Assets/imágenes/publicar-en-web/cueva.jpg",
+        "cantidad": 1
+    },
+    {
+        "id":2,
+        "nombre": "Cuadro2",
+        "precio": 20000,
+        "Image": "./Assets/imágenes/publicar-en-web/flamencos.jpg",
+        "cantidad": 1
+    },
+    {
+        "id":3,
+        "nombre": "Cuadro3",
+        "precio": 25000,
+        "Image": "./Assets/imágenes/publicar-en-web/puente.jpg",
+        "cantidad": 1
+    }
+]

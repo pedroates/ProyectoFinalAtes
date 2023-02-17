@@ -1,0 +1,172 @@
+body {
+    margin: 0px;
+}
+
+.nav-container {
+    position: sticky;
+    z-index: 3;
+    top: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    background-color: black;
+}
+.navbar-logo {
+    justify-self: start;
+    margin-left: 20px;
+    color: white;
+    margin-top: 4vh;
+    cursor: pointer;
+}
+
+.ver-carrito {
+    font-size: 30px;
+    margin-right: 20px;
+    margin-top: 3.5vh;
+    cursor: pointer;
+}
+
+.banner {
+    background-image: url(../Assets/imágenes/publicar-en-web/caballos.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+.banner-container {
+text-align: center;
+padding: 15% 0;
+}
+
+.banner h1 {
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    font-size: 62px;
+    font-weight: bold;
+}
+
+.banner p {
+    font-size: 30px;
+    color: white;
+    opacity: 0.7;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+.shop-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.card > image {
+    width: 90%;
+    height: 230px;
+}
+
+.price {
+    color: gray;
+    font-size: 24px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 25px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.modal-container {
+    width: 75%;
+    margin: 0 10%;
+    max-height: 70vh;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+}
+
+.modal-container::-webkit-scrollbar {
+    display: none;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    color: white;
+    width: 100%;
+}
+
+.modal-header-title {
+    justify-self: start;
+}
+
+.modal-header-button {
+    cursor: pointer;
+}
+.modal-container > .modal-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    margin: 75px;
+    font-size: 25px;
+}
+.modal-container > div > image {
+    height: 100px;
+    width: 100px;
+}
+
+.total-content {
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.borrar-product {
+    cursor: pointer;
+}
+
+.cantidad-carrito {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px;
+    top: 37px;
+    right: 14px;
+    position: absolute;
+    display: none;
+}
