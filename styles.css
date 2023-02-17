@@ -29,7 +29,7 @@ body {
 }
 
 .banner {
-    background-image: url(../Assets/imágenes/publicar-en-web/caballos.jpg);
+    background-image: url(./Assets/imágenes/publicar-en-web/caballos.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
